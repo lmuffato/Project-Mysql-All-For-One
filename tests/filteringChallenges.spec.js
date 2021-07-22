@@ -51,7 +51,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('12 - Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.', () => {
+  describe.only('12 - Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.', () => {
     it('Verifica o desafio12', async () => {
       const challengeQuery = readFileSync('desafio12.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult12');
