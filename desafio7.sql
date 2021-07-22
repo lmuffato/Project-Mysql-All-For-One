@@ -1,2 +1,3 @@
-SELECT * FROM northwind.products
-WHERE id >= 96;
+SELECT id FROM northwind.products
+order by id desc
+limit 5;
