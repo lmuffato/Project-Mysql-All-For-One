@@ -49,7 +49,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe('4 - Conte quantos registros existem em `product_name` de `products`.', () => {
+  describe.only('4 - Conte quantos registros existem em `product_name` de `products`.', () => {
     it('Verifica o desafio4', async () => {
       const challengeQuery = readFileSync('desafio4.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult4');
