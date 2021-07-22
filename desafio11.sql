@@ -1,6 +1,5 @@
 SELECT notes FROM northwind.purchase_orders
-WHERE
-	notes LIKE '%#30'
+WHERE notes LIKE '%#30'
     OR notes LIKE '%#31'
     OR notes LIKE '%#32'
     OR notes LIKE '%#33'
@@ -10,3 +9,4 @@ WHERE
     OR notes LIKE '%#37'
     OR notes LIKE '%#38'
     OR notes LIKE '%#39';
+
