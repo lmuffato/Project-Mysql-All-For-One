@@ -3,4 +3,4 @@ UPDATE northwind.order_details
 SET 
     discount = 30
 WHERE
-    unite_price < 10.000;
+    unite_price < 10;
