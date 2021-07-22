@@ -1,2 +1,2 @@
--- select * from purchase_orders
--- where notes in (like '%30', like '%39');
+SELECT * FROM purchase_orders
+WHERE notes LIKE '%3%';
