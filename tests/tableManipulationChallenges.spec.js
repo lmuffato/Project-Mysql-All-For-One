@@ -41,7 +41,7 @@ describe('Desafios de manipulação de tabelas', () => {
     const lastOrderDetailsIdsQuery = (limit = 1) =>
       `SELECT id FROM northwind.order_details ORDER BY id DESC LIMIT ${limit};`;
 
-    describe.only('20 - Adicione ao `order_details` uma linha com os seguintes dados: `order_id`: 69, `product_id`: 80, `quantity`: 15.0000, `unit_price`: 15.0000, `discount`: 0, `status_id`: 2, `date_allocated`: NULL, `purchase_order_id`: NULL e `inventory_id`: 129. Obs.: o `id` deve ser incrementado automaticamente.', () => {
+    describe('20 - Adicione ao `order_details` uma linha com os seguintes dados: `order_id`: 69, `product_id`: 80, `quantity`: 15.0000, `unit_price`: 15.0000, `discount`: 0, `status_id`: 2, `date_allocated`: NULL, `purchase_order_id`: NULL e `inventory_id`: 129. Obs.: o `id` deve ser incrementado automaticamente.', () => {
       it('Verifica o desafio20', async () => {
         const challengeQuery = readFileSync('desafio20.sql', 'utf8').trim();
         const lastOrderDetailsId = (
