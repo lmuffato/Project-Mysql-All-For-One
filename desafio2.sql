@@ -1,3 +1,3 @@
--- chalenge;
+-- chalenge 2;
 
-SELECT * FROM northwind.product;
+SELECT * FROM northwind.products;
