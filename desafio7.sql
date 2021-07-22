@@ -1,0 +1,3 @@
+-- challenge 7;
+
+SELECT id FROM northwind.products ORDER BY id DESC LIMIT 5;
