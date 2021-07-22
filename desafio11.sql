@@ -1,0 +1,1 @@
+SELECT notes FROM northwind.purchase_orders WHERE notes IN('Purchase generated based on Order #30');
