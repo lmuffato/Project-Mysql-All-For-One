@@ -120,7 +120,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
+  describe('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
     it('Verifica o desafio19', async () => {
       const challengeQuery = readFileSync('desafio19.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult19');
