@@ -1,2 +1,3 @@
 SELECT id FROM northwind.products
+ORDER BY ID ASC
 LIMIT 45 OFFSET 40;
