@@ -61,7 +61,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe.only('21 - Adicione, com um único `INSERT`, duas linhas ao `order_details` com os mesmos dados. Esses dados são novamente `order_id`: 69, `product_id`: 80, `quantity`: 15.0000, `unit_price`: 15.0000, `discount`: 0, `status_id`: 2, `date_allocated`: NULL, `purchase_order_id`: NULL e `inventory_id`: 129 (o `ìd` deve ser incrementado automaticamente).', () => {
+    describe('21 - Adicione, com um único `INSERT`, duas linhas ao `order_details` com os mesmos dados. Esses dados são novamente `order_id`: 69, `product_id`: 80, `quantity`: 15.0000, `unit_price`: 15.0000, `discount`: 0, `status_id`: 2, `date_allocated`: NULL, `purchase_order_id`: NULL e `inventory_id`: 129 (o `ìd` deve ser incrementado automaticamente).', () => {
       it('Verifica o desafio21', async () => {
         const challengeQuery = readFileSync('desafio21.sql', 'utf8').trim();
         const lastOrderDetailsId = (
@@ -86,7 +86,7 @@ describe('Desafios de manipulação de tabelas', () => {
     const countOrderDetailsByDiscountQuery = (discount) =>
       `SELECT COUNT(*) AS details_count FROM order_details WHERE discount = ${discount};`;
 
-    describe('22 - Atualize os dados de `discount` do `order_details` para 15.', () => {
+    describe.only('22 - Atualize os dados de `discount` do `order_details` para 15.', () => {
       it('Verifica o desafio22', async () => {
         const challengeQuery = readFileSync('desafio22.sql', 'utf8').trim();
 
