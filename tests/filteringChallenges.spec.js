@@ -100,7 +100,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
+  describe('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
     it('Verifica o desafio17', async () => {
       const challengeQuery = readFileSync('desafio17.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult17');
@@ -120,7 +120,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
+  describe.only('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
     it('Verifica o desafio19', async () => {
       const challengeQuery = readFileSync('desafio19.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult19');
