@@ -1,0 +1,1 @@
+SELECT * FROM northwind.purchase_id WHERE supplied_id = 3 AND status_id = 2;
