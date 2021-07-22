@@ -1,5 +1,5 @@
 # 2 - Exiba os dados de todas as colunas da tabela products.
-SELECT 
+SELECT
     *
 FROM
     northwind.products;
