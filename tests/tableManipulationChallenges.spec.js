@@ -160,7 +160,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe.only('27 - Delete todos os dados da tabela `order_details`.', () => {
+    describe('27 - Delete todos os dados da tabela `order_details`.', () => {
       it('Verifica o desafio27', async () => {
         const challengeQuery = readFileSync('desafio27.sql', 'utf8').trim();
 
