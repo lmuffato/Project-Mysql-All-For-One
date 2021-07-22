@@ -80,7 +80,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
+  describe('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
     it('Verifica o desafio15', async () => {
       const challengeQuery = readFileSync('desafio15.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult15');
@@ -100,7 +100,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
+  describe.only('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
     it('Verifica o desafio17', async () => {
       const challengeQuery = readFileSync('desafio17.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult17');
