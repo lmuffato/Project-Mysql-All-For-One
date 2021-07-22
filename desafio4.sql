@@ -1,1 +1,1 @@
-SELECT count(product_name) FROM products;
+SELECT count('product_name') FROM products;
