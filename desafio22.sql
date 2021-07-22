@@ -1,3 +1,3 @@
-update order_details
-set discount = 15
-WHERE id=93;
+UPDATE order_details
+SET discount = 15
+WHERE id = 93;

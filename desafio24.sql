@@ -1,4 +1,4 @@
-update order_details
-set discount = 45
-where unit_price > 10
-and id in (30, 40);
+UPDATE order_details
+SET discount = 45
+WHERE unit_price > 10
+AND id IN (30, 40);
