@@ -1,7 +1,7 @@
 SELECT 
-	COUNT(id) AS orders_count
+  COUNT(id) AS orders_count
 FROM 
-	northwind.orders
+  northwind.orders
 WHERE
-	employee_id
+  employee_id
 IN (5, 6) AND shipper_id LIKE 2;
