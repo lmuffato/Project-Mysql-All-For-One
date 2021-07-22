@@ -1,2 +1,2 @@
-SELECT * FROM northwind.products
-LIMIT 10 OFFSET 3;
+SELECT product_name, id from northwind.products
+ORDER BY product_name;
