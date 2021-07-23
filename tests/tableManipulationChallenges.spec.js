@@ -100,7 +100,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe.only('23 - Atualize os dados de `discount` da tabela `order_details` para 30 cuja `unit_price` seja menor que 10.0000.', () => {
+    describe('23 - Atualize os dados de `discount` da tabela `order_details` para 30 cuja `unit_price` seja menor que 10.0000.', () => {
       it('Verifica o desafio23', async () => {
         const challengeQuery = readFileSync('desafio23.sql', 'utf8').trim();
 
@@ -114,7 +114,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe('24 - Atualize os dados de `discount` da tabela `order_details` para 45 cuja `unit_price` seja maior que 10.0000 e o id seja um número entre 30 a 40.', () => {
+    describe.only('24 - Atualize os dados de `discount` da tabela `order_details` para 45 cuja `unit_price` seja maior que 10.0000 e o id seja um número entre 30 a 40.', () => {
       it('Verifica o desafio24', async () => {
         const challengeQuery = readFileSync('desafio24.sql', 'utf8').trim();
 
