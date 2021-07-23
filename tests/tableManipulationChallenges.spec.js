@@ -132,7 +132,7 @@ describe('Desafios de manipulação de tabelas', () => {
   describe('Queries de deleção', () => {
     const countOrderDetailsQuery = 'SELECT COUNT(*) AS details_count FROM order_details;';
 
-    describe.only('25 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja menor que 10.0000.', () => {
+    describe('25 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja menor que 10.0000.', () => {
       it('Verifica o desafio25', async () => {
         const challengeQuery = readFileSync('desafio25.sql', 'utf8').trim();
 
@@ -146,7 +146,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe('26 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.', () => {
+    describe.only('26 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.', () => {
       it('Verifica o desafio26', async () => {
         const challengeQuery = readFileSync('desafio26.sql', 'utf8').trim();
 
