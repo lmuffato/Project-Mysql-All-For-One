@@ -1,5 +1,5 @@
 INSERT INTO
-    order_details
+    northwind.order_details
     (
       order_id,
       product_id,

@@ -1,4 +1,4 @@
 UPDATE
-    order_details
+    northwind.order_details
 SET
     discount = '15';

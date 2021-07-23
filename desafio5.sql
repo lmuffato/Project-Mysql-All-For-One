@@ -1,5 +1,5 @@
 SELECT 
     *
 FROM 
-    products
+    northwind.products
 LIMIT 3,10;
