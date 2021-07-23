@@ -1,3 +1,3 @@
-INSERT INTO northwind.order_details (order_id, quantity, unit_price, discount, status_id, date_allocated, purchase_order_id, inventory_id)
+INSERT INTO northwind.order_details 
 VALUES(69,80,150000,0,2,NULL,NULL,129),
 (69,80,150000,0,2,NULL,NULL,129);
