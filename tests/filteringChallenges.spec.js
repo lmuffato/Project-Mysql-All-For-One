@@ -22,7 +22,7 @@ describe('Desafios sobre filtragem de dados', () => {
     sequelize.close();
   });
 
-  describe.only('9 - Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos.', () => {
+  describe('9 - Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos.', () => {
     it('Verifica o desafio9', async () => {
       const challengeQuery = readFileSync('desafio9.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult9');
@@ -31,7 +31,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('10 - Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo `id` de forma crescente.', () => {
+  describe.only('10 - Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo `id` de forma crescente.', () => {
     it('Verifica o desafio10', async () => {
       const challengeQuery = readFileSync('desafio10.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult10');
