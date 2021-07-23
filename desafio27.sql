@@ -1,2 +1,1 @@
-DELETE FROM northwind.order_details
-unit_price;
+TRUNCATE TABLE northwind.order_details;
