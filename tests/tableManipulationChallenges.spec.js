@@ -146,7 +146,7 @@ describe('Desafios de manipulação de tabelas', () => {
       });
     });
 
-    describe.only('26 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.', () => {
+    describe('26 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.', () => {
       it('Verifica o desafio26', async () => {
         const challengeQuery = readFileSync('desafio26.sql', 'utf8').trim();
 
