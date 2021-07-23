@@ -3,4 +3,4 @@ SELECT
 FROM
     northwind.purchase_orders
 WHERE
-    notes IS NULL;
+    notes IS NOT NULL;
