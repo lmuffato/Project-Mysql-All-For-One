@@ -5,4 +5,8 @@ SET
 WHERE
     unit_price > 10.0000
 AND
-  30 <= id <= 40;
+    id 
+BETWEEN
+    30
+AND
+    40;
