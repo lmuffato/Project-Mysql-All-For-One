@@ -1,4 +1,6 @@
 SELECT
-    DATE_FORMAT(submitted_date, '%k') AS submitted_hour
+    HOUR(submitted_date) 
+AS 
+    submitted_hour
 FROM
     northwind.purchase_orders;
