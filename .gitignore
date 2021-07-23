@@ -1,3 +1,6 @@
 # VSCode repo settings
 .vscode
 node_modules/
+
+# # Biblioteca instalada - Gerador de código
+_templates/
