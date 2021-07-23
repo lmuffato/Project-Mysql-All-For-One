@@ -1,0 +1,1 @@
+SELECT extract(HOUR FROM submitted_date) as submitted_hour FROM northwind.purchase_orders;
