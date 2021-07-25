@@ -1,0 +1,1 @@
+SELECT notes from northwind.purchase_orders;
