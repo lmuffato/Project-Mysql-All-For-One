@@ -1,2 +1,2 @@
 SELECT * FROM northwind.purchase_orders
-ORDER BY created_by >= 3 DESC, id; 
+WHERE notes IS NOT NULL;
