@@ -10,4 +10,3 @@ INSERT INTO order_details (
   inventory_id)
   VALUES (69, 80, 150000, 150000, 0, 2, NULL, NULL, 129),
   VALUES (69, 80, 150000, 150000, 0, 2, NULL, NULL, 129);
-  
