@@ -1,4 +1,1 @@
-SELECT 5+6;
-select "de";
-select 2+8;
-select 11 as "A", "de" as "TRYBE", 10 as "eh";
+select 5+6 as "A", "de" as "Trybe", 2+8 as "eh";
