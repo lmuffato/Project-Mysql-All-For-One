@@ -1,0 +1,1 @@
+select employee_id, shipper_id from northwind.orders;
