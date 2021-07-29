@@ -1,0 +1,1 @@
+select submitted_date from northwind.purchase_orders where submitted_date like '%04-26%';
