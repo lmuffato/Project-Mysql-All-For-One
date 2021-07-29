@@ -1,1 +1,1 @@
-select employee_id, shipper_id from northwind.orders;
+select count(employee_id) as orders_count, shipper_id from northwind.orders where employee_id in (5,6) and shipper_id in (2);
