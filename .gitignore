@@ -1,6 +1,7 @@
 # VSCode repo settings
 .vscode
 node_modules/
+/.idea/
 /.idea/sd-010-a-mysql-all-for-one.iml
 /.idea/vcs.xml
 /.idea/dataSources.xml
