@@ -14,7 +14,7 @@ INSERT INTO northwind.order_details
     purchase_order_id,
     inventory_id
  )
-  VALUES
+    VALUES
 (
 69,
 80,
