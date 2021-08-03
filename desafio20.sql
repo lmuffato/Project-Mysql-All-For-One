@@ -13,8 +13,8 @@ INSERT INTO northwind.order_details
     date_allocated,
     purchase_order_id,
     inventory_id
- )
-    VALUES
+  )
+  VALUES
 (
 69,
 80,
