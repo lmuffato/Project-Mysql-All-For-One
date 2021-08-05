@@ -1,2 +1,2 @@
 SELECT notes FROM northwind.purchase_orders WHERE
-notes LIKE '%3%';
+notes BETWEEN 'Purchase generated based on Order #3%' AND 'Purchase generated based on Order #39';
