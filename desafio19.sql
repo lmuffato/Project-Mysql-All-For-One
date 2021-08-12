@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM northwind.orders WHERE employee_id=3 OR employee_id=6 ;
