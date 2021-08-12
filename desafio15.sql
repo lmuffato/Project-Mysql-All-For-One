@@ -1,1 +1,1 @@
-SELECT SUBSTRING(submitted_date, 11, 9) as submitted_hour FROM northwind.purchase_orders;
+SELECT HOUR(submitted_date) as submitted_hour FROM northwind.purchase_orders;
